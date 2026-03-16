@@ -88,7 +88,7 @@ int main()
             for(int i = 0; i < rx_frame.can_dlc; i++)
                 printf("%02X ", rx_frame.data[i]);
 
-            printf("\n");
+            printf("\n"); 
             fflush(stdout);  // force immediate print
         }
     }
